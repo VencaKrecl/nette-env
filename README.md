@@ -1,8 +1,21 @@
-ENV variables for Nette framework
-================================= 
+ENV variables helper for Nette framework
+========================================
 
+Install
+-------
+
+```bash
+composer install vencakrecl/nette-env
+```
+
+Usage
+-----
+
+* bootstrap.php
 ```php
-// load configurator
+use Nette\Configurator;
+use NetteEnv\NetteEnv;
+
 $configurator = new Configurator();
 
 $envs = new NetteEnv();
@@ -16,6 +29,7 @@ $envs
 $configurator->addDynamicParameters($envs->getEnvs());
 ```
 
+* config.neon
 ```neon
 database:
     dsn: 'mysql:host=%MYSQL_HOST%:%MYSQL_PORT%;dbname=%MYSQL_DBNAME%'
