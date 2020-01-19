@@ -1,7 +1,7 @@
 PHONY: build init test phpunit
 
 # Docker
-DR=docker run -it --rm --name php -v "$(shell pwd)":/var/www/html php-image:5.6
+DR=docker run --rm --name php -v "$(shell pwd)":/var/www/html php-image:5.6
 
 build:
 	docker build --pull --build-arg DEV_USERNAME=$(shell id -un) --build-arg DEV_UID=$(shell id -u) -t php-image:5.6 .
