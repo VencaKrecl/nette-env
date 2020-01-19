@@ -1,7 +1,10 @@
 ENV variables helper for Nette framework
 ========================================
 
-Install
+[![Packagist version][packagist]](https://packagist.org/packages/vencakrecl/nette-env)
+[![License][license]](https://github.com/VencaKrecl/nette-env/blob/master/LICENSE)
+
+Installation
 -------
 
 ```bash
@@ -36,3 +39,6 @@ database:
     user: %MYSQL_USER%
     password: %MYSQL_PASSWORD%
 ```
+
+[packagist]: https://img.shields.io/packagist/v/vencakrecl/nette-env
+[license]: https://img.shields.io/packagist/l/vencakrecl/nette-env.svg?style=flat-square
