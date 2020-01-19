@@ -3,6 +3,7 @@ ENV variables helper for Nette framework
 
 [![Packagist version][packagist]](https://packagist.org/packages/vencakrecl/nette-env)
 [![License][license]](https://github.com/VencaKrecl/nette-env/blob/master/LICENSE)
+[![Last test status][ci]](https://github.com/VencaKrecl/nette-env/actions?query=workflow%3ACI)
 
 Installation
 -------
@@ -42,3 +43,4 @@ database:
 
 [packagist]: https://img.shields.io/packagist/v/vencakrecl/nette-env
 [license]: https://img.shields.io/packagist/l/vencakrecl/nette-env.svg?style=flat-square
+[ci]: https://img.shields.io/github/workflow/status/VencaKrecl/nette-env/CI
